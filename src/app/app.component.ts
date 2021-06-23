@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'audiotest';
 
-  // playAudio(){
-  //   const audio = new Audio();
-  //   audio.src = 'src/app/audio/willhelm.mp3';
-  //   audio.load();
-  //   audio.play();
-  // }
+  playAudio(){
+    const audio = new Audio();
+    audio.src = '../assets/audio/willhelm.mp3';
+    audio.load();
+    audio.play();
+  }
 
   // playAudio(){
   //   let audio = document.getElementById('play');
