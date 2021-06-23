@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'audiotest';
+
+  // playAudio(){
+  //   const audio = new Audio();
+  //   audio.src = 'src/app/audio/willhelm.mp3';
+  //   audio.load();
+  //   audio.play();
+  // }
+
+  // playAudio(){
+  //   let audio = document.getElementById('play');
+  //   let sound = new Audio();
+  //   sound.src = audio;
+
+  // }
 }
+
